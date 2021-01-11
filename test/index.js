@@ -1,7 +1,7 @@
 import '@babel/polyfill';
 
-function importAll(r) {
-  r.keys().forEach(r);
+function runAllTests(tests) {
+  tests.keys().forEach(tests);
 }
 
-importAll(require.context('.', true, /Spec.js$/));
+runAllTests(require.context('../src', true, /Spec.js$/));

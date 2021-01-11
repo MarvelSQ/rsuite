@@ -1,0 +1,20 @@
+.page-toolbar {
+  position: fixed;
+  right: 20px;
+  top: 10px;
+  z-index: 0;
+  .rs-btn-subtle {
+    .rs-icon {
+      fill: @toolbar-btn-subtle-color;
+      height: 32px;
+    }
+  }
+}
+
+@media (max-width: @media-xs) {
+  .page-toolbar {
+    position: static;
+    margin-top: 60px;
+    text-align: right;
+  }
+}

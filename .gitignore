@@ -33,7 +33,6 @@ node_modules
 # Optional REPL history
 .node_repl_history
 
-
 # custom
 
 .vscode
@@ -41,7 +40,10 @@ _build
 build
 .DS_Store
 lib/
+es/
 .idea
 karma.sauce.conf.js
 dev-publish.sh
 dist
+docs/out/
+/types
